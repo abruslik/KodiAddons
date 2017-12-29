@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+  <!-- Plugin name -->
+  <string id="30000">plugin.video.filmixme</string>
+
+  <!-- Main menu -->
+  <string id="30001">[COLOR orange]Поиск[/COLOR]</string>
+  <string id="30002">Расширенный поиск</string>
+  <string id="30003">[COLOR yellow]Мои закладки[/COLOR]</string>
+  <string id="30004">[COLOR blue]Рубрики:[/COLOR]</string>
+  <string id="30005">- Фильмы</string>
+  <string id="30006">- Сериалы</string>
+  <string id="30007">- Мультфильмы</string>
+  <string id="30008">- Мультсериалы</string>
+
+</strings>
