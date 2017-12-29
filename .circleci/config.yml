@@ -3,9 +3,16 @@
 # Check https://circleci.com/docs/2.0/language-python/ for more details
 #
 version: 2
+general:
+  branches:
+    only:
+     - master
+     - dev
+
 jobs:
+
   build:
-    docker:
+    machine:
       - image: circleci/python:2.7.13
 
     working_directory: ~/repo
