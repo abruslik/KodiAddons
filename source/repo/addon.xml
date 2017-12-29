@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.abruslik"
        name="Abruslik's kodi add-ons"
-       version="0.0.1"
+       version="0.0.2"
        provider-name="Andrey Bruslik (aka abruslik)">
 	<extension point="xbmc.addon.repository" name="Abruslik's kodi add-ons">
 		<info>https://raw.githubusercontent.com/abruslik/KodiAddons/master/repository/addons.xml</info>
