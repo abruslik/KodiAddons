@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><addons><addon id="plugin.video.filmixme"
+       name="Filmix Me"
+       version="1.0.1"
+       provider-name="Andrey Bruslik (aka abruslik)">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Filmix Me</summary>
+    <description>Filmix Me - enjoy the best online collection of movies, cartoons and series.</description>
+  </extension>
+</addon>
+<addon id="repository.abruslik"
+       name="Abruslik's kodi add-ons"
+       version="0.0.1"
+       provider-name="Andrey Bruslik (aka abruslik)">
+	<extension point="xbmc.addon.repository" name="Abruslik's kodi add-ons">
+		<info>https://raw.githubusercontent.com/abruslik/KodiAddons/master/repository/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/abruslik/KodiAddons/master/repository/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/abruslik/KodiAddons/master/repository</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Kodi addo-ons from Abruslik's repository</summary>
+		<description>Add-ons forkodi media player</description>
+		<disclaimer>XBMC add-on that allow viewing popular video resources</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
