@@ -13,4 +13,8 @@
   <string id="30007">- Мультфильмы</string>
   <string id="30008">- Мультсериалы</string>
 
+  <!-- List pagination -->
+  <string id="30101">[COLOR green]&lt;&lt; Предыдущая страница[/COLOR]</string>
+  <string id="30102">[COLOR green]Следующая страница &gt;&gt;[/COLOR]</string>
+
 </strings>
