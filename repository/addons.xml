@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?><addons><addon id="plugin.video.filmixme"
        name="Filmix Me"
-       version="1.0.1"
+       version="1.0.2"
        provider-name="Andrey Bruslik (aka abruslik)">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -25,9 +25,9 @@
 		<datadir zip="true">https://raw.githubusercontent.com/abruslik/KodiAddons/master/repository</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>Kodi addo-ons from Abruslik's repository</summary>
-		<description>Add-ons forkodi media player</description>
-		<disclaimer>XBMC add-on that allow viewing popular video resources</disclaimer>
+		<summary>Abruslik's kodi add-ons</summary>
+		<description>Add-ons for kodi media player</description>
+		<disclaimer>Kodi add-ons allow enjoy popular media resources</disclaimer>
 		<platform>all</platform>
 	</extension>
 </addon>
