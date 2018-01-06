@@ -30,13 +30,21 @@ jobs:
       - run:
           name: install dependencies
           command: |
-            pip install --user -r requirements.txt
+            virtualenv venv
+            source venv/bin/activate
+            pip install -r requirements.txt
+
+      - save_cache:
+           paths:
+                - ./venv
+           key: v1-dependencies-{{ checksum "requirements.txt" }}
 
       # run tests!
       - run:
           name: run tests
           command: |
-            /home/circleci/.local/bin/nosetests-2.7/nosetests -w ./source/filmixme
+            source venv/bin/activate
+            nosetests -w ./source/filmixme
 
       - store_artifacts:
           path: test-reports
