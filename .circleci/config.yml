@@ -36,7 +36,6 @@ jobs:
       - run:
           name: run tests
           command: |
-            /usr/local/bin/nosetests -w ./source/filmixme
             find / -type f -name 'nosetests*' -perm +111 -print -quit
 
       - store_artifacts:
