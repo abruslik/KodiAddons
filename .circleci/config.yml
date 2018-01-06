@@ -36,7 +36,7 @@ jobs:
       - run:
           name: run tests
           command: |
-            find / -type f -name 'nosetests*' -perm +111 -print -quit
+            /home/circleci/.local/bin/nosetests-2.7/nosetests -w ./source/filmixme
 
       - store_artifacts:
           path: test-reports
