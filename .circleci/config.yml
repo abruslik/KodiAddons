@@ -40,11 +40,13 @@ jobs:
            key: v1-dependencies-{{ checksum "requirements.txt" }}
 
       # run tests!
-      #- run:
-      #    name: run tests
-      #    command: |
-      #      source venv/bin/activate
-      #      nosetests -w ./source/filmixme
+      - run: mkdir test_reports
+      - run:
+          name: run tests
+          command: |
+            source venv/bin/activate
+            nosetests -w ./source/filmixme
+            COVERALLS_REPO_TOKEN=$COVERALLS_TOKEN coveralls
 
       - store_artifacts:
           path: test-reports
